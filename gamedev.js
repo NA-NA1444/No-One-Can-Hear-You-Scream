@@ -71,15 +71,6 @@ $("#forward").click(function() {
         width: '+=150px',
         top: '600px',
     });
-  
-    
-  $(function(){
-	$("#hms_timer").countdowntimer({
-                hours : 3,
-		minutes : 10,
-                seconds : 10,
-                size : "lg",
-	});
 });
 
 var $img = $('#monster1'),
