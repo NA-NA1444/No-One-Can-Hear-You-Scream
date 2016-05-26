@@ -4,6 +4,7 @@ $( document ).ready(function() {
 $( document ).ready(function() {
 $("#startingbutton").click(function() {
   $("#back2").show({});
+    $("#mask").show({});
     $("#startingbutton").hide({});
   $("#startingb").hide({});
     $("#instructions").hide({});
@@ -25,6 +26,8 @@ $("#back2").hide({});
   $("#hands4").hide({});
   $("#monster1").hide({});
         $("#warning1").hide({});
+        $("#mask").hide({});
+
 
 
 
@@ -52,27 +55,58 @@ $("#forward").click(function() {
         $("#forward").hide({});
         $("#hands").hide({});
         $("#hands2").show({});
+  $( "#warning1" ).slideUp( 200 ).delay( 800 ).show( 300 );
+  $( "#warning1" ).slideDown( 200 ).delay( 800 ).hide( 300 );
           $("#forward2").show({});
-  $( "#monster1" ).slideUp( 300 ).delay( 600 ).show( 400 );
+  $( "#monster1" ).slideUp( 300 ).delay( 4000 ).show( 1 );
   });
   $("#forward2").click(function(){
-    
     });
+    });
+   
+  
     $("#instructions").animate({
         left: '20px',
          height: '+=10px',
         width: '+=150px',
         top: '600px',
     });
-  });
+  
     
   $(function(){
 	$("#hms_timer").countdowntimer({
-		minutes : 15,
-                seconds : 30,
+                hours : 3,
+		minutes : 10,
+                seconds : 10,
                 size : "lg",
 	});
 });
+
+var $img = $('#monster1'),
+    scale = 1.1,
+    h = $img.height(),
+    sh = h*scale;
+
+function scaleUp($elt)
+{
+    $elt.animate({height: sh}, function ()
+    {
+        scaleDown($elt);
+    });
+}
+
+function scaleDown($elt)
+{
+    $elt.animate({height: h}, function ()
+    {
+        scaleUp($elt);
+    });
+}
+
+scaleUp($img);
+
+
+
     
   
 });
