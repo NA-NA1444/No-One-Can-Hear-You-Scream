@@ -46,3 +46,221 @@ body {
 	background-position: bottom center;
 
 }
+
+#instructions {
+  background-color: grey;
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  top: 450px;
+    opacity: 0.6;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  position: absolute;
+  left: -250px;
+  top: 550px;
+  color: black;
+  text-align: center;
+}
+#backback {
+  width: 1120px;
+  height: 840px;
+  background-color: black;
+  position: absolute;
+  left: -10px;
+ top: -100px;
+}
+#startingbutton {
+  width: 300px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 250px;
+  left: 330px;
+  opacity: 0.6;
+}
+
+#hands {
+  width: 200px;
+  height: 90px;
+  background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
+  transform: scale(4,4);
+  position: absolute;
+  top: 505px;
+  left: 400px;
+}
+
+#hands2 {
+  width: 200px;
+  height: 90px;
+  background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
+  transform: scale(4,4);
+  position: absolute;
+  top: 650px;
+  left: 590px;
+    transform: scale(4,4);
+
+
+}
+
+#startingb {
+  width: 375px;
+  height: 400px;
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/68/c8/0e/68c80e5b9ea13252acba61bebc18cc33.jpg");
+  transform: scale(3, 2);
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+#back2 {
+  width: 1100px;
+  height: 480px;
+  background: url("http://s3.amazonaws.com/blenderguru.com/uploads/2012/08/tutorial-result1.jpg");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    transform: scale(1,2);
+}
+
+#left1 {
+  height: 250px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  font-size: 60px;
+  border-color: black;
+  border-width: 10px;
+  opacity: 0.6;
+    border-radius: 20px;
+}
+
+#right1 {
+  height: 250px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+  font-size: 60px;
+  border-color: black;
+  border-width: 10px;
+  opacity: 0.6;
+  border-radius: 20px;
+}
+
+#forward {
+  width: 200px;
+  height: 80px;
+  background: green;
+  position: absolute;
+  top: 20px;
+  left: 385px;
+  font-size: 60px;
+  border-color: black;
+  border-width: 10px;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+
+#forward2 {
+  width: 200px;
+  height: 80px;
+  background: green;
+  position: absolute;
+  top: 20px;
+  left: 440px;
+  font-size: 60px;
+  border-color: black;
+  border-width: 10px;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+#back3three {
+  width: 1400px;
+  height: 700px;
+  background: url("http://i4.tietuku.cn/24b5f58d15436225.jpg");
+  position: absolute;
+  top: 10px;
+  right: 50px;
+    transform: scale(1.4,1.4);
+
+
+}
+
+#h1 {
+  height: 45px;
+  width: 160px;
+  background-color: yellow;
+    opacity: 0.6;
+  border-color: black;
+  text-alignment: center;
+  font-size: 200%;
+}
+
+#monster1 {
+  width: 200px;
+  height: 250px;
+  background: url("http://vignette3.wikia.nocookie.net/marvelcrossroads/images/c/c2/Necromorph_Exploder_Form_Earth-1774.png/revision/latest?cb=20150609222500"
+);
+  position: absolute;
+  top: 350px;
+  left: 650px;
+      transform: scale(2,2);
+  opacity: 0.9;
+
+}
+
+#back4 {
+  width: 1400px;
+  height: 700px;
+  background: url("https://i.ytimg.com/vi/agLyL34qha4/maxresdefault.jpg");
+  position: absolute;
+  top: 10px;
+    transform: scale(1.4,1.4);
+}
+
+#hands4 {
+  width: 200px;
+  height: 90px;
+  background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
+  transform: scale(4,4);
+  position: absolute;
+  top: 650px;
+  left: 590px;
+    transform: scale(4,4);
+}
+
+#warning1 {
+  width: 800px;
+  height: 230px;
+  background: url("http://lynchimportsllc.com/wp-content/uploads/2015/06/warning-banner.png");
+  position: absolute;
+  top: 200px;
+  left: 70px;
+    opacity: 0.8;
+}
+
+
+
+
+@import "compass/css3";
+
+$background: #202020;
+
+// Basic layout
+html {
+  background: $background;
+  text-align: center;
+  padding-top: 36px;
+}
+body {
+  display: inline-block;
+}
