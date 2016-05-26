@@ -53,7 +53,7 @@ $("#forward").click(function() {
         $("#hands").hide({});
         $("#hands2").show({});
           $("#forward2").show({});
-  $( "#monster1" ).slideUp( 300 ).delay( 4000 ).show( 400 );
+  $( "#monster1" ).slideUp( 300 ).delay( 600 ).show( 400 );
   });
   $("#forward2").click(function(){
     
@@ -68,9 +68,8 @@ $("#forward").click(function() {
     
   $(function(){
 	$("#hms_timer").countdowntimer({
-                hours : 3,
-		minutes : 10,
-                seconds : 10,
+		minutes : 15,
+                seconds : 30,
                 size : "lg",
 	});
 });
