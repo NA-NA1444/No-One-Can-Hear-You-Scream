@@ -51,7 +51,7 @@ body {
   height: 80px;
   position: absolute;
   top: 450px;
-    opacity: 0.6;
+  opacity: 0.6;
   border-style: solid;
   border-width: 10px;
   border-color: black;
@@ -61,14 +61,16 @@ body {
   color: black;
   text-align: center;
 }
+
 #backback {
   width: 1120px;
   height: 840px;
   background-color: black;
   position: absolute;
   left: -10px;
- top: -100px;
+  top: -100px;
 }
+
 #startingbutton {
   width: 300px;
   height: 150px;
@@ -87,7 +89,7 @@ body {
   width: 200px;
   height: 90px;
   background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
-  transform: scale(4,4);
+  transform: scale(4, 4);
   position: absolute;
   top: 505px;
   left: 400px;
@@ -97,13 +99,11 @@ body {
   width: 200px;
   height: 90px;
   background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
-  transform: scale(4,4);
+  transform: scale(4, 4);
   position: absolute;
   top: 650px;
   left: 590px;
-    transform: scale(4,4);
-
-
+  transform: scale(4, 4);
 }
 
 #startingb {
@@ -123,7 +123,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-    transform: scale(1,2);
+  transform: scale(1, 2);
 }
 
 #left1 {
@@ -137,7 +137,7 @@ body {
   border-color: black;
   border-width: 10px;
   opacity: 0.6;
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 #right1 {
@@ -181,6 +181,7 @@ body {
   opacity: 0.7;
   border-radius: 20px;
 }
+
 #back3three {
   width: 1400px;
   height: 700px;
@@ -188,16 +189,14 @@ body {
   position: absolute;
   top: 10px;
   right: 50px;
-    transform: scale(1.4,1.4);
-
-
+  transform: scale(1.4, 1.4);
 }
 
 #h1 {
   height: 45px;
   width: 160px;
   background-color: yellow;
-    opacity: 0.6;
+  opacity: 0.6;
   border-color: black;
   text-alignment: center;
   font-size: 200%;
@@ -206,14 +205,12 @@ body {
 #monster1 {
   width: 200px;
   height: 250px;
-  background: url("http://vignette3.wikia.nocookie.net/marvelcrossroads/images/c/c2/Necromorph_Exploder_Form_Earth-1774.png/revision/latest?cb=20150609222500"
-);
+  background: url("http://vignette3.wikia.nocookie.net/marvelcrossroads/images/c/c2/Necromorph_Exploder_Form_Earth-1774.png/revision/latest?cb=20150609222500");
   position: absolute;
   top: 350px;
   left: 650px;
-      transform: scale(2,2);
+  transform: scale(2, 2);
   opacity: 0.9;
-
 }
 
 #back4 {
@@ -222,18 +219,18 @@ body {
   background: url("https://i.ytimg.com/vi/agLyL34qha4/maxresdefault.jpg");
   position: absolute;
   top: 10px;
-    transform: scale(1.4,1.4);
+  transform: scale(1.4, 1.4);
 }
 
 #hands4 {
   width: 200px;
   height: 90px;
   background: url("http://vignette1.wikia.nocookie.net/ballisticweapons/images/a/a8/BW-1stP-Fists.png/revision/latest?cb=20130522195409");
-  transform: scale(4,4);
+  transform: scale(4, 4);
   position: absolute;
   top: 550px;
   left: 590px;
-    transform: scale(4,4);
+  transform: scale(4, 4);
 }
 
 #warning1 {
@@ -243,26 +240,59 @@ body {
   position: absolute;
   top: 200px;
   left: 70px;
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 #mask {
   height: 576px;
   width: 955px;
-  background-image: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
+  background: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
   position: absolute;
   top: 90px;
-      transform: scale(1.3,1.3);
+  transform: scale(1.3, 1.3);
 }
 
 #mask2 {
-  height: 576px;
+  height: 600px;
   width: 955px;
-  background-image: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
+  background: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
   position: absolute;
-  top: 116px;
-      transform: scale(1.4,1.4);
+  top: 130px;
+  transform: scale(1.4, 1.4);
 }
+
+#back5 {
+  width: 1150px;
+  height: 830px;
+  background: url("http://i.kinja-img.com/gawker-media/image/upload/hk6fvqgvy1z9mjyjsibo.png");
+}
+  
+#gameover1 {
+  width: 1200px;
+  height: 700px;
+  background: url("http://www.mweb.co.za/DesktopModules/DigArticle/MediaHandler.ashx?portalid=20&moduleid=5259&mediaid=43929&width=1280&height=720");
+  position: absolute;
+  top: 50px;
+    transform: scale(1,1.1);
+
+}
+
+#theend {
+  width: 500px;
+  height: 160px;
+  background-color: maroon;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+    opacity: 0.8;
+border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  font-size: 70px;
+      text-align: center;
+    text-shadow: 8px 6px black;
+  color: red;
+
 }
 
 
