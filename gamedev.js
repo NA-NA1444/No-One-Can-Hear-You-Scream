@@ -12,6 +12,9 @@ $("#startingbutton").click(function() {
   $("#left1").show({});
     $("#forward").show({});
       $("#h1").fadeIn({});
+        $("#hands").fadeIn({});
+//starting button//
+
 });
 
 $("#back2").hide({});
@@ -27,10 +30,9 @@ $("#back2").hide({});
   $("#monster1").hide({});
         $("#warning1").hide({});
         $("#mask").hide({});
-
-
-
-
+        $("#hands").hide({});
+    $("#mask2").hide({});
+//all hidden var/
 
 $("#right1").click(function() {
   $("#back2").fadeOut({});
@@ -42,7 +44,7 @@ $("#right1").click(function() {
       $("#hands").fadeOut({});
   $("#hands4").fadeIn({});
 
-
+//first right button//
 
 });
 
@@ -55,15 +57,16 @@ $("#forward").click(function() {
         $("#forward").hide({});
         $("#hands").hide({});
         $("#hands2").show({});
+          $("#mask2").show({});
   $( "#warning1" ).slideUp( 200 ).delay( 800 ).show( 300 );
   $( "#warning1" ).slideDown( 200 ).delay( 800 ).hide( 300 );
           $("#forward2").show({});
-  $( "#monster1" ).slideUp( 300 ).delay( 4000 ).show( 1 );
+  $( "#monster1" ).slideUp( 200 ).delay( 4000 ).show( 1000 );
   });
   $("#forward2").click(function(){
     });
     });
-   
+   //forward button//
   
     $("#instructions").animate({
         left: '20px',
@@ -71,6 +74,15 @@ $("#forward").click(function() {
         width: '+=150px',
         top: '600px',
     });
+  
+    
+  $(function(){
+	$("#hms_timer").countdowntimer({
+                hours : 3,
+		minutes : 10,
+                seconds : 10,
+                size : "lg",
+	});
 });
 
 var $img = $('#monster1'),
@@ -98,6 +110,4 @@ scaleUp($img);
 
 
 
-    
-  
 });
