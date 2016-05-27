@@ -44,6 +44,7 @@ body {
 #exploreBody {
 	background-image: url("img/exploreHome1.jpg");
 	background-position: bottom center;
+}
 #instructions {
   background-color: grey;
   width: 300px;
