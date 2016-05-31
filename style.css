@@ -275,13 +275,13 @@ body {
   background: url("http://www.mweb.co.za/DesktopModules/DigArticle/MediaHandler.ashx?portalid=20&moduleid=5259&mediaid=43929&width=1280&height=720");
   position: absolute;
   top: 50px;
-    transform: scale(1,1.1);
+    transform: scale(3,3.1);
 
 }
 
 #theend {
   width: 500px;
-  height: 160px;
+  height: 200px;
   background-color: maroon;
   position: absolute;
   top: 200px;
