@@ -57,7 +57,7 @@ body {
   border-color: black;
   position: absolute;
   left: -250px;
-  top: 750px;
+  top: 950px;
   color: black;
   text-align: center;
 }
@@ -81,7 +81,7 @@ body {
   font-size: 20px;
   position: absolute;
   top: 350px;
-  left: 430px;
+  left: 530px;
   opacity: 0.6;
 }
 
