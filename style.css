@@ -107,8 +107,8 @@ body {
 }
 
 #startingb {
-  width: 375px;
-  height: 400px;
+  width: 575px;
+  height: 500px;
   background: url("https://s-media-cache-ak0.pinimg.com/736x/68/c8/0e/68c80e5b9ea13252acba61bebc18cc33.jpg");
   transform: scale(3, 2);
   position: absolute;
