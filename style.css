@@ -275,7 +275,7 @@ body {
   background: url("http://www.mweb.co.za/DesktopModules/DigArticle/MediaHandler.ashx?portalid=20&moduleid=5259&mediaid=43929&width=1280&height=720");
   position: absolute;
   top: 50px;
-    transform: scale(3,3.1);
+    transform: scale(2,2.1);
 
 }
 
@@ -294,6 +294,7 @@ border-style: solid;
       text-align: center;
     text-shadow: 8px 6px black;
   color: red;
+  transform: scale(1.4, 1.4);
 
 }
 
