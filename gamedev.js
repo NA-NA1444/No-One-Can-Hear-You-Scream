@@ -119,6 +119,8 @@ $("#forward2").click(function(){
     $("#mask").hide({});
     $("#forward2").hide({});
   });
-
+$("#theend").click(function(){
+    location.reload({});
+});
 
 });
