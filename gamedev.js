@@ -34,7 +34,10 @@ $(document).ready(function() {
   $("#back5").hide({});
     $("#gameover1").hide({});
     $("#theend").hide({});
-
+$("#forward3").hide({});
+  $("#object").hide({});
+  $("#forward4").hide({});
+  $("#hands5").hide({});
 
 
 
@@ -122,5 +125,11 @@ $("#forward2").click(function(){
 $("#theend").click(function(){
     location.reload({});
 });
-
+$("#forward4").click(function() {
+    $("#back4").hide({});
+    $("#forward4").hide({});
+    $("#object").show({});
+      $("#hands4").hide({});
+    $("#hands5").show({});
+  });
 });
