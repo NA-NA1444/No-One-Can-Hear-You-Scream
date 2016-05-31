@@ -85,6 +85,16 @@ body {
   opacity: 0.6;
 }
 
+#startingb {
+  width: 375px;
+  height: 400px;
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/68/c8/0e/68c80e5b9ea13252acba61bebc18cc33.jpg");
+  transform: scale(4, 3);
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+<//starting stuff//>
 #hands {
   width: 200px;
   height: 90px;
@@ -106,15 +116,7 @@ body {
   transform: scale(4, 4);
 }
 
-#startingb {
-  width: 375px;
-  height: 400px;
-  background: url("https://s-media-cache-ak0.pinimg.com/736x/68/c8/0e/68c80e5b9ea13252acba61bebc18cc33.jpg");
-  transform: scale(4, 3);
-  position: absolute;
-  top: 200px;
-  left: 500px;
-}
+
 
 #back2 {
   width: 1000px;
