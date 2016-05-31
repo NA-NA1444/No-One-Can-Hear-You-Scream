@@ -112,8 +112,8 @@ body {
   background: url("https://s-media-cache-ak0.pinimg.com/736x/68/c8/0e/68c80e5b9ea13252acba61bebc18cc33.jpg");
   transform: scale(4, 3);
   position: absolute;
-  top: 100px;
-  left: 300px;
+  top: 200px;
+  left: 500px;
 }
 
 #back2 {
