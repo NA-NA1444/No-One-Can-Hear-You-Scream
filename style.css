@@ -190,7 +190,7 @@ body {
   background: url("http://i4.tietuku.cn/24b5f58d15436225.jpg");
   position: absolute;
   top: 10px;
-  right: 50px;
+  left: -500px;
   transform: scale(2, 2);
 }
 
