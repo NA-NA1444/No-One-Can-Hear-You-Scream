@@ -338,9 +338,10 @@ border-style: solid;
 #back6 {
      width: 950px;
   height: 620px;
-  background: url("");
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/d6/07/51/d607512554c24a5cae86acb44adc07f1.jpg");
   position: absolute;
-  top: 10px;
+  top: 100px;
+  left: 100px;
   transform: scale(1.4, 1.4);
 }
 
