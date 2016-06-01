@@ -46,7 +46,8 @@ $("#left1").click(function() {
 	$("#back6").show({});
     $("#right1").hide({});
     $("#left1").hide({});
-
+    $("#mask").hide({});
+    $("#forward").hide({});
 });
 
 
