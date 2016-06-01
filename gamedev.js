@@ -39,7 +39,11 @@ $("#forward3").hide({});
   $("#forward4").hide({});
   $("#hands5").hide({});
 
-
+$("#left1").click(function() {
+    $("#back2").hide({});
+	$("#back6").show({});
+	
+});
 
 
   $("#right1").click(function() {
