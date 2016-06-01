@@ -41,8 +41,9 @@ $("#forward3").hide({});
 
 $("#left1").click(function() {
     $("#back2").hide({});
+    $("#backback").hide({});
 	$("#back6").show({});
-	
+
 });
 
 
