@@ -250,9 +250,9 @@ body {
   width: 955px;
   background: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
   position: absolute;
-  top: 90px;
-  left: 100px;
-  transform: scale(1.7, 1.7);
+  top: 100px;
+  left: 110px;
+  transform: scale(1.8, 1.8);
 }
 
 #mask2 {
