@@ -38,6 +38,7 @@ $("#forward3").hide({});
   $("#object").hide({});
   $("#forward4").hide({});
   $("#hands5").hide({});
+  $("#back5").hide({});
 
 $("#left1").click(function() {
     $("#back2").hide({});
