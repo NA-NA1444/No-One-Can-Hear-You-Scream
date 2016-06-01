@@ -217,10 +217,11 @@ body {
 
 #back4 {
   width: 1150px;
-  height: 720px;
+  height: 700px;
   background: url("https://i.ytimg.com/vi/agLyL34qha4/maxresdefault.jpg");
   position: absolute;
   top: 10px;
+  left: 50px;
   transform: scale(1.4, 1.7);
 }
 
