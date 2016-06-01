@@ -60,6 +60,9 @@ $("#left1").click(function() {
     $("#forward").fadeOut({});
     $("#hands").fadeOut({});
     $("#hands4").fadeIn({});
+    $("#forward4").fadeIn({});
+
+
 
   });
 
