@@ -217,11 +217,11 @@ body {
 
 #back4 {
   width: 1050px;
-  height: 720px;
+  height: 820px;
   background: url("https://i.ytimg.com/vi/agLyL34qha4/maxresdefault.jpg");
   position: absolute;
   top: 10px;
-  transform: scale(1.4, 1.4);
+  transform: scale(1.4, 1.7);
 }
 
 #hands4 {
@@ -322,7 +322,7 @@ border-style: solid;
   position: absolute;
   top: 130px;
   left: 100px;
-  transform: scale(3,4)
+  transform: scale(2,3)
 }
 #hands5 {
   width: 200px;
