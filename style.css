@@ -251,7 +251,7 @@ body {
   background: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
   position: absolute;
   top: 150px;
-  left: 150px;
+  left: 160px;
   transform: scale(1.8, 1.8);
 }
 
@@ -260,8 +260,9 @@ body {
   width: 955px;
   background: url("http://media-minecraftforum.cursecdn.com/attachments/136/734/635741788332884963.png");
   position: absolute;
-  top: 130px;
-  transform: scale(2, 2);
+  top: 150px;
+    left: 160px;
+  transform: scale(1.8, 1.8);
 }
 
 #back5 {
