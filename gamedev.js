@@ -40,6 +40,7 @@ $("#forward3").hide({});
   $("#hands5").hide({});
   $("#back6").hide({});
   $("#forward5").hide({});
+  $("#zmonster1").hide({});
 
 $("#left1").click(function() {
     $("#back2").hide({});
@@ -50,7 +51,7 @@ $("#left1").click(function() {
     $("#mask").hide({});
     $("#forward").hide({});
       $("#forward5").show({});
-
+$("#zmonster1").slideDown(300).delay(900).hide(400);
 });
 
 

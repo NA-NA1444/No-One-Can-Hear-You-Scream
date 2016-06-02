@@ -359,6 +359,15 @@ border-style: solid;
   opacity: 0.7;
   border-radius: 20px;
 }
+
+#zmonster1 {
+    width: 200px;
+    height: 100px;
+    background: url("http://vignette2.wikia.nocookie.net/nazizombiesplus/images/c/c3/Zombie.png/revision/latest?cb=20130928235136");
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
 @import "compass/css3";
 
 $background: #202020;
