@@ -79,7 +79,7 @@ $("#left1").click(function() {
     $("#warning1").slideUp(200).delay(800).show(300);
     $("#warning1").slideDown(200).delay(800).hide(300);
     $("#forward2").show({});
-    $("#monster1").slideUp(200).delay(4000).show(1000);
+    $("#monster1").slideUp(20).delay(400).show(100);
     $("#gameover1").slideUp(200).delay(5200).show(3000);
     $("#theend").slideUp(210).delay(5300).show(3100);
   });
@@ -93,14 +93,6 @@ $("#instructions").animate({
   top: '600px',
 });
 
-$(function() {
-  $("#hms_timer").countdowntimer({
-    hours: 3,
-    minutes: 10,
-    seconds: 10,
-    size: "lg",
-  });
-});
 
 var $img = $('#monster1'),
   scale = 1.1,
