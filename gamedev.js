@@ -51,7 +51,6 @@ $("#left1").click(function() {
     $("#mask").hide({});
     $("#forward").hide({});
       $("#forward5").show({});
-$("#zmonster1").slideDown(3000).delay(900).hide(4000);
 });
 
 
@@ -65,7 +64,7 @@ $("#zmonster1").slideDown(3000).delay(900).hide(4000);
     $("#hands").fadeOut({});
     $("#hands4").fadeIn({});
     $("#forward4").fadeIn({});
-
+$("#zmonster1").slideUp(200).delay(4000).show(1000);
 
 
   });
