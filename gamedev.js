@@ -49,7 +49,7 @@ $("#left1").click(function() {
     $("#left1").hide({});
     $("#mask").hide({});
     $("#forward").hide({});
-      $("#forward4").show({});
+      $("#forward5").show({});
 
 });
 
