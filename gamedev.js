@@ -39,6 +39,7 @@ $("#forward3").hide({});
   $("#forward4").hide({});
   $("#hands5").hide({});
   $("#back6").hide({});
+  $("#forward5").hide({});
 
 $("#left1").click(function() {
     $("#back2").hide({});
@@ -48,6 +49,8 @@ $("#left1").click(function() {
     $("#left1").hide({});
     $("#mask").hide({});
     $("#forward").hide({});
+      $("#forward4").show({});
+
 });
 
 
