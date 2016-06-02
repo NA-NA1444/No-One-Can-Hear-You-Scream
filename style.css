@@ -2,7 +2,8 @@
 
 	background: url("http://i.imgur.com/Uj6oxXj.jpg
 ");
-    background-size: cover;
+    width: 200px;
+    height: 300px;
     background-position: center center;
 	font-family: monospace;
 
