@@ -337,12 +337,12 @@ border-style: solid;
 }
 
 #back6 {
-     width: 550px;
-  height: 320px;
+     width: 650px;
+  height: 420px;
   background: url("https://s-media-cache-ak0.pinimg.com/736x/d6/07/51/d607512554c24a5cae86acb44adc07f1.jpg");
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 200px;
+  left: 200px;
   transform: scale(3,3);
 }
 
