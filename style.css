@@ -124,7 +124,7 @@ body {
   background: url("http://s3.amazonaws.com/blenderguru.com/uploads/2012/08/tutorial-result1.jpg");
   position: absolute;
   top: 100px;
-  left: 300px;
+  left: 200px;
   transform: scale(2, 3);
 }
 
