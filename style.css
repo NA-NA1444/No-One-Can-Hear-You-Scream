@@ -343,7 +343,7 @@ border-style: solid;
   position: absolute;
   top: 100px;
   left: 100px;
-  transform: scale(5,5);
+  transform: scale(4.5,4.5);
 }
 
 @import "compass/css3";
