@@ -51,7 +51,7 @@ $("#left1").click(function() {
     $("#mask").hide({});
     $("#forward").hide({});
       $("#forward5").show({});
-$("#zmonster1").slideDown(300).delay(900).hide(400);
+$("#zmonster1").slideDown(3000).delay(900).hide(4000);
 });
 
 
