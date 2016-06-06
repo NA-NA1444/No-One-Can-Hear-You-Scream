@@ -391,7 +391,7 @@ border-style: solid;
     height: 1080px;
     background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
     position: absolute;
-    
+    top: 0px;
 }
 @import "compass/css3";
 
