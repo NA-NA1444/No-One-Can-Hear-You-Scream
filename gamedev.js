@@ -138,9 +138,9 @@ $("#forward4").click(function() {
     $("#back4").hide({});
     $("#forward4").hide({});
     $("#object").show({});
-      $("#hands4").hide({});
+    $("#hands4").hide({});
     $("#hands5").show({});
-             $("#endh").show({});
+    $("#endh").show({});
 
   });
 });
