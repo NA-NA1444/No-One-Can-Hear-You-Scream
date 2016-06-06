@@ -41,6 +41,7 @@ $("#forward3").hide({});
   $("#back6").hide({});
   $("#forward5").hide({});
   $("#zmonster1").hide({});
+  $("#endh").hide({});
 
 $("#left1").click(function() {
     $("#back2").hide({});
@@ -128,6 +129,7 @@ $("#forward2").click(function(){
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
+         $("#endh").show({});
   });
 $("#theend").click(function(){
     location.reload({});
