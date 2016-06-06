@@ -366,8 +366,8 @@ border-style: solid;
     height: 575px;
     background: url("http://vignette2.wikia.nocookie.net/nazizombiesplus/images/c/c3/Zombie.png/revision/latest?cb=20130928235136");
     position: absolute;
-    top: 150px;
-    left: 600px;
+    top: 190px;
+    left: 630px;
 }
 @import "compass/css3";
 
