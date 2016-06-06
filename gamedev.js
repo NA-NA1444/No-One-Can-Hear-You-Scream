@@ -126,7 +126,6 @@ $("#forward2").click(function(){
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
-         $("#endh").show({});
   });
 $("#theend").click(function(){
     location.reload({});
@@ -137,5 +136,7 @@ $("#forward4").click(function() {
     $("#object").show({});
       $("#hands4").hide({});
     $("#hands5").show({});
+             $("#endh").show({});
+
   });
 });
