@@ -82,6 +82,8 @@ $("#gameover1").slideUp(200).delay(5200).show(3000);
     $("#hands").hide({});
     $("#hands2").show({});
     $("#mask2").show({});
+        $("#forward2").show({});
+
   });
 
 
