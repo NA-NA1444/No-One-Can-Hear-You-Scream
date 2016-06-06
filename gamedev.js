@@ -52,6 +52,7 @@ $("#left1").click(function() {
     $("#mask").hide({});
     $("#forward").hide({});
       $("#forward5").show({});
+      $("#warning1").slideUp(200).delay(800).show(300);
 $("#zmonster1").slideUp(200).delay(900).show(1000);
 $("#gameover1").slideUp(200).delay(5200).show(3000);
 });
@@ -81,12 +82,6 @@ $("#gameover1").slideUp(200).delay(5200).show(3000);
     $("#hands").hide({});
     $("#hands2").show({});
     $("#mask2").show({});
-    $("#warning1").slideUp(200).delay(800).show(300);
-    $("#forward2").show({});
-    $("#monster1").slideUp(200).delay(900).show(1000);
-    $("#gameover1").slideUp(200).delay(5200).show(3000);
-    $("#theend").slideUp(210).delay(5300).show(3100);
-  });
   });
 
 
