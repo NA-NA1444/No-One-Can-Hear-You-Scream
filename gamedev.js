@@ -42,6 +42,10 @@ $("#forward3").hide({});
   $("#forward5").hide({});
   $("#zmonster1").hide({});
   $("#endh").hide({});
+  $("#uwonb").hide({});
+  $("#isaiduwon").hide({});
+    $("#uwon").hide({});
+
 
 $("#left1").click(function() {
     $("#back2").hide({});
