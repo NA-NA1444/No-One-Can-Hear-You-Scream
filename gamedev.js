@@ -146,5 +146,7 @@ $("#forward4").click(function() {
 });
 
 $("#endh").click(function(){
+     $("#back5").hide({});
+     $("#uwonb").show({});
 
 });
