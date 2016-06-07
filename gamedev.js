@@ -142,6 +142,7 @@ $("#forward4").click(function() {
     $("#hands4").hide({});
     $("#hands5").show({});
     $("#endh").show({});
+     $("#forward6").show({});
 
   });
 });
@@ -152,7 +153,6 @@ $("#forward6").click(function(){
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
-     $("#forward6").show({});
 });
 $("#endh").click(function(){
      $("#back5").hide({});
@@ -161,7 +161,7 @@ $("#endh").click(function(){
 //u won the game//
 });
 
-$("#forward5").click(function(){
+$("#forward6").click(function(){
 	$("#back6").hide({});
 		$("#back7").show({});
 $("#amonster1").slideUp(200).delay(900).show(1000);
