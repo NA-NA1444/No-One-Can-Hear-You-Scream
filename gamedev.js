@@ -45,6 +45,7 @@ $("#forward3").hide({});
   $("#uwonb").hide({});
   $("#isaiduwon").hide({});
     $("#uwon").hide({});
+  $("#back7").hide({});
 
 
 $("#left1").click(function() {
@@ -149,5 +150,9 @@ $("#endh").click(function(){
      $("#back5").hide({});
      $("#uwonb").show({});
      $("#isaiduwon").show({});
+
+});
+
+$("#forward5").click(function(){
 
 });
