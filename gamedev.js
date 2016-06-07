@@ -152,6 +152,7 @@ $("#forward6").click(function(){
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
+});
 $("#endh").click(function(){
      $("#back5").hide({});
      $("#uwonb").show({});
