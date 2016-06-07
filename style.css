@@ -384,7 +384,7 @@ border-style: solid;
     top: 300px;
     left:510px;
     transform: scale(2,2);
-    
+
 }
 
 #uwonb {
@@ -408,6 +408,18 @@ border-style: solid;
   left: 530px;
   opacity: 0.6;
 }
+
+#back7 {
+ width: 650px;
+  height: 420px;
+  background: url("http://3.bp.blogspot.com/-94Mz66vFdsg/UBkMAXuZN0I/AAAAAAAAAUI/NB1gaaE3ENA/s1600/Nest01_15.jpg");
+  position: absolute;
+  top: 200px;
+  left: 200px;
+    transform: scale(3,3);
+
+}
+
 @import "compass/css3";
 
 $background: #202020;
