@@ -410,13 +410,13 @@ border-style: solid;
 }
 
 #back7 {
- width: 450px;
-  height: 220px;
+ width: 650px;
+  height: 420px;
   background: url("http://3.bp.blogspot.com/-94Mz66vFdsg/UBkMAXuZN0I/AAAAAAAAAUI/NB1gaaE3ENA/s1600/Nest01_15.jpg");
   position: absolute;
   top: 200px;
   left: 200px;
-    transform: scale(3,3);
+    transform: scale(1,1);
 
 }
 
