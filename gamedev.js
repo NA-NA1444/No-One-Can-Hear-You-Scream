@@ -142,6 +142,7 @@ $("#forward4").click(function() {
     $("#hands4").hide({});
     $("#hands5").show({});
     $("#endh").show({});
+    $("#forward6").show({});
 
   });
 });
