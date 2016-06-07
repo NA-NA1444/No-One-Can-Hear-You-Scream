@@ -46,7 +46,8 @@ $("#forward3").hide({});
   $("#isaiduwon").hide({});
     $("#uwon").hide({});
   $("#back7").hide({});
-
+  $("#amonster1").hide({});
+//all hidden variables//
 
 $("#left1").click(function() {
     $("#back2").hide({});
@@ -156,6 +157,6 @@ $("#endh").click(function(){
 $("#forward5").click(function(){
 	$("#back6").hide({});
 		$("#back7").show({});
-$("#zmonster1").slideUp(200).delay(900).show(1000);
+$("#amonster1").slideUp(200).delay(900).show(1000);
 $("#gameover1").slideUp(200).delay(5200).show(3000);
 });
