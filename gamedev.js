@@ -58,7 +58,7 @@ $("#left1").click(function() {
     $("#left1").hide({});
     $("#mask").hide({});
     $("#forward").hide({});
-      $("#forward5").show({});
+      $("#forward6").show({});
 $("#zmonster1").slideUp(200).delay(900).show(1000);
 $("#gameover1").slideUp(200).delay(5200).show(3000);
 });
@@ -142,7 +142,6 @@ $("#forward4").click(function() {
     $("#hands4").hide({});
     $("#hands5").show({});
     $("#endh").show({});
-     $("#forward6").show({});
 
   });
 });
