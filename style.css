@@ -434,6 +434,20 @@ border-style: solid;
         filter: FlipH;
         -ms-filter: "FlipH";
     }
+
+    #forward6 {
+  width: 200px;
+  height: 80px;
+  background: green;
+  position: absolute;
+  top: 20px;
+  left: 580px;
+  font-size: 60px;
+  border-color: black;
+  border-width: 10px;
+  opacity: 0.7;
+  border-radius: 20px;
+}
 @import "compass/css3";
 $background: #202020;
 
