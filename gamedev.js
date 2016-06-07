@@ -154,5 +154,8 @@ $("#endh").click(function(){
 });
 
 $("#forward5").click(function(){
-
+	$("#back6").hide({});
+		$("#back7").show({});
+$("#zmonster1").slideUp(200).delay(900).show(1000);
+$("#gameover1").slideUp(200).delay(5200).show(3000);
 });
