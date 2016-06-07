@@ -156,7 +156,7 @@ $("#endh").click(function(){
      $("#back5").hide({});
      $("#uwonb").show({});
      $("#isaiduwon").show({});
-
+//u won the game//
 });
 
 $("#forward5").click(function(){
