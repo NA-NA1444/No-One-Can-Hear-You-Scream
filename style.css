@@ -426,13 +426,7 @@ border-style: solid;
     background: url("http://media.popcultcha.com.au/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/a/l/aliens-colonel-marines-play-arts-kai-alien-spitter-1.png");
     top: 200px;
     left: 690px;
-    -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-@import "compass/css3";
+    }
 
 $background: #202020;
 
