@@ -47,6 +47,8 @@ $("#forward3").hide({});
     $("#uwon").hide({});
   $("#back7").hide({});
   $("#amonster1").hide({});
+    $("#forward6").hide({});
+
 //all hidden variables//
 
 $("#left1").click(function() {
@@ -127,8 +129,6 @@ scaleUp($img);
 $("#forward2").click(function(){
     $("#back3three").hide({});
      $("#back5").show({});
-    $("#monster1").hide({});
-    $("#warning1").hide({});
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
@@ -147,6 +147,12 @@ $("#forward4").click(function() {
   });
 });
 
+$("#forward6").click(function(){
+    $("#back6").hide({});
+     $("#back3three").show({});
+    $("#mask2").hide({});
+    $("#mask").hide({});
+    $("#forward2").hide({});
 $("#endh").click(function(){
      $("#back5").hide({});
      $("#uwonb").show({});
