@@ -49,7 +49,6 @@ $("#forward3").hide({});
   $("#amonster1").hide({});
     $("#forward6").hide({});
 
-//all hidden variables//
 
 $("#left1").click(function() {
     $("#back2").hide({});
