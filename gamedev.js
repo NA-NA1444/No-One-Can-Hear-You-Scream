@@ -142,7 +142,6 @@ $("#forward4").click(function() {
     $("#hands4").hide({});
     $("#hands5").show({});
     $("#endh").show({});
-    $("#forward6").show({});
 
   });
 });
@@ -153,6 +152,7 @@ $("#forward6").click(function(){
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
+     $("#forward6").show({});
 });
 $("#endh").click(function(){
      $("#back5").hide({});
