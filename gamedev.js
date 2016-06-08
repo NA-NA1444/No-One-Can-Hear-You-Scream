@@ -148,7 +148,7 @@ $("#forward4").click(function() {
 
 $("#forward6").click(function() {
     $("#back6").hide({});
-     $("#baack7").show({});
+     $("#back7").show({});
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
