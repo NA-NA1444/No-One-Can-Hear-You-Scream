@@ -125,7 +125,7 @@ function scaleDown($elt) {
 
 scaleUp($img);
 
-$("#forward2").click(function(){
+$("#forward2").click(function() {
     $("#back3three").hide({});
      $("#back5").show({});
     $("#mask2").hide({});
@@ -146,21 +146,21 @@ $("#forward4").click(function() {
   });
 });
 
-$("#forward6").click(function(){
+$("#forward6").click(function() {
     $("#back6").hide({});
-     $("#back3three").show({});
+     $("#baack7").show({});
     $("#mask2").hide({});
     $("#mask").hide({});
     $("#forward2").hide({});
 });
-$("#endh").click(function(){
+$("#endh").click(function() {
      $("#back5").hide({});
      $("#uwonb").show({});
      $("#isaiduwon").show({});
 //u won the game//
 });
 
-$("#forward6").click(function(){
+$("#forward6").click(function() {
 	$("#back6").hide({});
 		$("#back7").show({});
 $("#amonster1").slideUp(200).delay(900).show(1000);
