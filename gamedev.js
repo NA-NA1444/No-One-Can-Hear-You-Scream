@@ -45,7 +45,6 @@ $("#forward3").hide({});
   $("#uwonb").hide({});
   $("#isaiduwon").hide({});
     $("#uwon").hide({});
-  $("#back7").hide({});
   $("#amonster1").hide({});
     $("#forward6").hide({});
 
