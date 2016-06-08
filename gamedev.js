@@ -47,6 +47,7 @@ $("#forward3").hide({});
     $("#uwon").hide({});
   $("#amonster1").hide({});
     $("#forward6").hide({});
+    $("#back7").hide({});
 
 
 $("#left1").click(function() {
